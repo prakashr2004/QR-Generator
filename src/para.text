@@ -1,0 +1,92 @@
+<section class="pb-24 md:bg-gray-800">
+  <div class="Container pt-5 md:pt-10 md:pb-20">
+    <div class="md:shadow-md md:shadow-[#00000015] w-full md:border md:border-gray-100 md:rounded-lg md:pb-10 pt-12 md:pt-14 md:px-8 lg:px-16 bg-white relative">
+      <div class="cursor-pointer absolute right-0 top-0 md:right-4 md:top-4 border border-gray-300 hover:bg-gray-100 rounded-full p-2">
+        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="w-4 h-4 text-gray-800" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+          <path d="M405 136.798L375.202 107 256 226.202 136.798 107 107 136.798 226.202 256 107 375.202 136.798 405 256 285.798 375.202 405 405 375.202 285.798 256z"></path>
+        </svg>
+      </div>
+      <h2 class="text-2xl text-center lg:text-3xl text-gray-800 font-medium">Add your requirement</h2>
+      <p class="text-gray-700 text-center text-xs md:text-sm mt-1.5 md:mt-2.5">so that other users can contact you.</p>
+      <div class="mt-12 md:mt-16">
+        <div class="grid gap-8 md:grid-cols-2 md:gap-10 lg:gap-y-10 lg:gap-x-14">
+          <div class="relative w-full md:self-start">
+            <label for="location" class="text-sm text-gray-600 block font-medium">Add Your Location*</label>
+            <div>
+              <input type="text" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" placeholder="Add Location..." required="" class="form-input w-full bg-gray-100 rounded-lg px-8 py-2.5 mt-1 text-sm lg:py-3" value="">
+            </div>
+            <img src="/location-outline.svg" alt="location-outline icon" class="absolute bottom-3.5 left-3 w-3 lg:bottom-4">
+          </div>
+          <div class="flex relative items-center space-x-2 border-2 border-gray-100 rounded-lg px-1.5 pt-7 pb-4 w-auto flex-nowrap md:self-start md:pt-6 lg:space-x-4 lg:px-4">
+            <label class="absolute -top-2.5 left-2 text-sm text-gray-600 font-medium bg-white px-2">Looking For</label>
+            <button class="bg-gray-100 hover:bg-gray-200 text-gray-600 px-6 py-3 rounded-lg text-xs cursor-pointer lg:py-4 lg:px-10 transition duration-200">Male</button>
+            <button class="bg-gray-100 hover:bg-gray-200 text-gray-600 px-6 py-3 rounded-lg text-xs cursor-pointer lg:py-4 lg:px-10 transition duration-200">Female</button>
+            <button class="bg-custom-green text-white px-6 py-3 rounded-lg text-xs cursor-pointer lg:py-4 lg:px-10 transition duration-200">Any</button>
+          </div>
+          <div class="relative w-full md:self-start">
+            <label for="rent" class="text-sm text-gray-600 block font-medium">Approx Rent*</label>
+            <input type="number" placeholder="5000" id="rent" name="rent" required="" class="form-input w-full bg-gray-100 rounded-lg px-8 py-2.5 mt-1 text-sm lg:py-3" value="">
+            <img src="/rupee-icon.svg" alt="Rupee icon" class="absolute bottom-4 left-3 w-2.5">
+          </div>
+          <div class="flex relative items-center space-x-2 border-2 border-gray-100 rounded-lg px-1.5 pt-7 pb-4 w-auto flex-nowrap md:self-start md:pt-6 lg:space-x-4 lg:px-4">
+            <label class="absolute -top-2.5 left-2 text-sm text-gray-600 font-medium bg-white px-2">Occupancy</label>
+            <button class="bg-custom-green text-white px-6 py-3 rounded-lg text-xs cursor-pointer lg:py-4 lg:px-10 transition duration-200">Single</button>
+            <button class="bg-gray-100 hover:bg-gray-200 text-gray-600 px-6 py-3 rounded-lg text-xs cursor-pointer lg:py-4 lg:px-10 transition duration-200">Shared</button>
+            <button class="bg-gray-100 hover:bg-gray-200 text-gray-600 px-6 py-3 rounded-lg text-xs cursor-pointer lg:py-4 lg:px-10 transition duration-200">Any</button>
+          </div>
+        </div>
+        <div class="mt-12 !z-20">
+          <label class="text-sm text-gray-600 font-medium">Choose Highlights for your property</label>
+          <div class="flex gap-2 md:gap-y-3 items-center flex-wrap mt-3">
+            <button class="bg-gray-100 hover:bg-gray-200 text-gray-600 px-3 py-1.5 md:px-6 md:py-2 text-xs rounded-full cursor-pointer">Working full time</button>
+            <button class="bg-gray-100 hover:bg-gray-200 text-gray-600 px-3 py-1.5 md:px-6 md:py-2 text-xs rounded-full cursor-pointer">College student</button>
+            <button class="bg-gray-100 hover:bg-gray-200 text-gray-600 px-3 py-1.5 md:px-6 md:py-2 text-xs rounded-full cursor-pointer">25+ age</button>
+            <button class="bg-gray-100 hover:bg-gray-200 text-gray-600 px-3 py-1.5 md:px-6 md:py-2 text-xs rounded-full cursor-pointer">&lt;25 age</button>
+            <button class="bg-gray-100 hover:bg-gray-200 text-gray-600 px-3 py-1.5 md:px-6 md:py-2 text-xs rounded-full cursor-pointer">Working night shifts</button>
+            <button class="bg-gray-100 hover:bg-gray-200 text-gray-600 px-3 py-1.5 md:px-6 md:py-2 text-xs rounded-full cursor-pointer">Have 2 wheeler</button>
+            <button class="bg-gray-100 hover:bg-gray-200 text-gray-600 px-3 py-1.5 md:px-6 md:py-2 text-xs rounded-full cursor-pointer">Have 4 wheeler</button>
+            <button class="bg-gray-100 hover:bg-gray-200 text-gray-600 px-3 py-1.5 md:px-6 md:py-2 text-xs rounded-full cursor-pointer">Will shift immediately</button>
+            <button class="bg-gray-100 hover:bg-gray-200 text-gray-600 px-3 py-1.5 md:px-6 md:py-2 text-xs rounded-full cursor-pointer">Have pets</button>
+            <button class="bg-gray-100 hover:bg-gray-200 text-gray-600 px-3 py-1.5 md:px-6 md:py-2 text-xs rounded-full cursor-pointer">Need no furnishing</button>
+            <button class="bg-gray-100 hover:bg-gray-200 text-gray-600 px-3 py-1.5 md:px-6 md:py-2 text-xs rounded-full cursor-pointer">Pure vegetarian</button>
+          </div>
+        </div>
+        <div class="grid gap-8 mt-8 md:mt-10 md:grid-cols-2 md:gap-10 lg:mt-14 lg:gap-14">
+          <div class="flex items-center space-x-2 relative border-2 border-gray-100 rounded-lg px-1.5 pt-7 pb-4 w-auto flex-nowrap md:self-start md:pt-6 lg:space-x-4 lg:px-4">
+            <label class="absolute -top-2.5 left-2 text-sm text-gray-600 font-medium bg-white px-2">Are you interested in PG too?</label>
+            <button class="bg-gray-100 hover:bg-gray-200 text-gray-600 px-6 py-3 rounded-lg text-xs cursor-pointer lg:py-4 lg:px-10 transition duration-200">Yes</button>
+            <button class="bg-custom-green text-white px-6 py-3 rounded-lg text-xs cursor-pointer lg:py-4 lg:px-10 transition duration-200">No</button>
+          </div>
+          <div class="flex items-center space-x-2 relative border-2 border-gray-100 rounded-lg px-1.5 pt-7 pb-4 w-auto flex-nowrap md:self-start md:pt-6 lg:space-x-4 lg:px-4">
+            <label class="absolute -top-2.5 left-2 text-sm text-gray-600 font-medium bg-white px-2">Are you interested in making<span class="greenText ml-1 cursor-pointer inline-flex items-center space-x-1"> <p>Teams?</p> <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></span></label>
+            <div class="mt-2 sm:mt-0 flex items-center space-x-2 lg:space-x-4 w-full">
+              <button class="bg-gray-100 hover:bg-gray-200 text-gray-600 px-6 py-3 rounded-lg text-xs cursor-pointer lg:py-4 lg:px-10 transition duration-200">Yes</button>
+              <button class="bg-custom-green text-white px-6 py-3 rounded-lg text-xs cursor-pointer lg:py-4 lg:px-10 transition duration-200">No</button>
+            </div>
+          </div>
+        </div>
+        <div class="flex items-center space-x-2 relative border-2 border-gray-100 rounded-lg px-1.5 pb-4 w-auto flex-nowrap md:self-start md:pt-6 lg:space-x-4 lg:px-4 mt-14 pt-14">
+          <label class="absolute -top-2.5 left-2 text-sm text-gray-600 font-medium bg-white px-2">Do you want to make your mobile visible to other users?</label>
+          <button class="bg-custom-green text-white px-6 py-3 rounded-lg text-xs cursor-pointer lg:py-4 lg:px-10 transition duration-200">Yes! make it public</button>
+          <button class="bg-gray-100 hover:bg-gray-200 text-gray-600 px-6 py-3 rounded-lg text-xs cursor-pointer lg:py-4 lg:px-10 transition duration-200">No! make it private</button>
+        </div>
+        <small class="text-xs text-gray-700">NOTE: If your phone is private, others can contact you only through chat.</small>
+        <div class="mt-8 text-sm md:mt-10 lg:mt-14">
+          <label for="desc" class="text-sm text-gray-600 font-medium">Description*</label>
+          <textarea id="desc" rows="4" name="desc" required="" class="form-input px-5 py-3 bg-gray-100 rounded-lg block w-full mt-1">I am looking for a room with roommate.</textarea>
+        </div>
+        <div class="grid place-items-center">
+          <button type="submit" class="w-48 h-12 text-sm md:text-base font-medium flex items-center justify-center md:w-56 md:h-12 bg-custom-green text-white mt-10 rounded-full hover:bg-green-600 transition disabled:cursor-not-allowed">
+            Submit
+            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-white w-3.5 h-3.5" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+              <path d="M294.1 256L167 129c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.3 34 0L345 239c9.1 9.1 9.3 23.7.7 33.1L201.1 417c-4.7 4.7-10.9 7-17 7s-12.3-2.3-17-7c-9.4-9.4-9.4-24.6 0-33.9l127-127.1z"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <p class="text-center my-10 text-sm">
+        <a href="/listing/need-roommate">Have room & need roommate? <button class="font-medium inline-flex items-center cursor-pointer">Add Room <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-black w-3.5 h-3.5" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M294.1 256L167 129c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.3 34 0L345 239c9.1 9.1 9.3 23.7.7 33.1L201.1 417c-4.7 4.7-10.9 7-17 7s-12.3-2.3-17-7c-9.4-9.4-9.4-24.6 0-33.9l127-127.1z"></path></svg></button></a>
+      </p>
+    </div>
+  </div>
+</section>
